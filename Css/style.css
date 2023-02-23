@@ -24,7 +24,7 @@ header{
 }
 
 
-#hero{
+#hero, footer{
 
     color: #36064d;
     border: dashed 2px #36064d;
@@ -44,6 +44,8 @@ header{
 
 
 #bio{
+    text-align: center;
+
+
     color: #faebd7;
-    background-color: rgb(56, 47, 47);
 }
