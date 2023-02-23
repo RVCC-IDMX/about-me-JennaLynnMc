@@ -58,5 +58,5 @@ header{
 /* bullet styles */
 
 .flowers li::marker{
-    content: '🌸';
+    content: '❀';
 }
