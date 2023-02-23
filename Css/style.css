@@ -25,13 +25,13 @@ header{
 
 
 #hero{
-    color: #eed4b2;
 
+    color: #36064d;
+    border: groove 2px #36064d;
+    background-color: #b97cd3;
+    text-align: center;
     text-align: center;
     padding: 10px;
-
-    text-align: center;
-  
   
    
 }
