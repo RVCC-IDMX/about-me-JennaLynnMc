@@ -42,10 +42,21 @@ header{
 
 
 
-
 #bio{
     text-align: center;
 
 
     color: #faebd7;
+}
+
+
+
+
+
+
+
+/* bullet styles */
+
+.flowers li::marker{
+    content: '🌸';
 }
