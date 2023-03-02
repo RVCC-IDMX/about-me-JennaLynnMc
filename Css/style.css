@@ -132,6 +132,12 @@ font-weight: 100px;
     border: 2px solid rgb(105, 30, 210);
     margin-bottom: 2rem;
 }
+
+#lit h2{
+    font-size: 50px;
+    text-align: center;
+}
+
 #lit div{
     padding: 2rem;
     max-width: 40rem;
