@@ -160,6 +160,8 @@ font-weight: 100px;
 
 #gallery{
     display: grid;
+grid-template-columns: 2fr 1fr;
+
 }
 
 
