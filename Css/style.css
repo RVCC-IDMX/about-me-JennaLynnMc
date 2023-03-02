@@ -81,6 +81,7 @@ font-size: 20px;
 #gallery{
 
     border: 2px solid #36064d;
+    margin-bottom: 2rem;
 }
 
 #gallery img{
@@ -92,6 +93,33 @@ font-size: 20px;
 
     text-align: center;
 }
+
+
+/*Literature*/
+#lt{
+
+    border: 2px solid rgb(105, 30, 210);
+    margin-bottom: 2rem;
+}
+#lit div{
+    padding: 2rem;
+    max-width: 40rem;
+    margin:0 auto;
+}
+
+/*Dropcaps*/
+
+#lit div p::first-letter{
+
+    color: #36064d;
+    float: left;
+    font-size: 40px;
+    padding: 10px;
+    line-height: .65;
+    border: 1px solid rgb(76, 17, 170);
+    text-shadow: 1px 1px;
+}
+
 
 
 
