@@ -41,11 +41,13 @@ header{
    
 }
 
+/*Hero Section*/
+
 #hero img{
     width: 300px; height: 300px;
 }
 
-
+/*Bio Section*/
 
 #bio{
     text-align: center;
@@ -53,6 +55,8 @@ font-size: 20px;
 
     color: #faebd7;
 }
+
+/*Hobbies*/
 
 #hobbies{
 
@@ -71,6 +75,23 @@ font-size: 20px;
 }
 
 
+
+/*Gallery*/
+
+#gallery{
+
+    border: 2px solid #36064d;
+}
+
+#gallery img{
+
+    max-width: 100%;
+}
+
+#gallery figure{
+
+    text-align: center;
+}
 
 
 
