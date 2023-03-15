@@ -17,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b665d8', end
 h1, h2, h3, h4, h5, h6{
     font-family:"Grenze+Gotisch";
     font-weight: 100;
-    font-size: 20pt;
+    font-size: 40pt;
     text-align: middle;
 
 }
@@ -72,7 +72,6 @@ font-weight: 100px;
 #hobbies{
     display: flex;
     flex-direction: column;
-    text-align: left;
     align-items: center;
     border: 5px #36064d;
 }
@@ -176,11 +175,35 @@ grid-template-columns: 2fr 1fr;
 
     display: flex;
     justify-content: 2fr 1fr;
-    align-items: ;
+
 }
 
 
+
+@media screen and  (min-width: 60cm){
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+
+
+
+
 }
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 2rem;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
 
 
 /* bullet styles */
