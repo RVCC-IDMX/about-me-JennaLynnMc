@@ -163,13 +163,16 @@ font-weight: 100px;
 
 /*media queries*/
 
-@media screen and (min-width: 768px){
+/* Tablet Size */
 
-#gallery{
-    display: grid;
-grid-template-columns: 2fr 1fr;
+@media screen and (min-width: 60em) {}
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    
+    
+    }
 
-}
 
 #gallery figcaption{
 
@@ -178,9 +181,14 @@ grid-template-columns: 2fr 1fr;
 
 }
 
+#gallery
+        {display: grid;
+    grid-template-columns: 2fr 1fr;}
 
 
-@media screen and  (min-width: 60cm){
+
+
+@media screen and  (min-width: 60cm){}
     figure{
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -200,9 +208,32 @@ figcaption{
 }
 
 
+#lit div{
+
+max-width: 100%;
+columns: 20rem;
+
+}
 
 
+/* large screen size */
+@media screen and (min-width: 100em){
 
+}
+     #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+#gallery h2{
+    grid-column: 1/-1;
+}
+
+
+figure{
+    display: block;
+}
 
 
 
