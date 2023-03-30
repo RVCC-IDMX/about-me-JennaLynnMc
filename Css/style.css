@@ -211,6 +211,19 @@ h5{
 }
 
 
+h6{
+    text-align: center;
+}
+
+
+
+#video{
+    text-align: center;
+
+}
+
+
+
 /* Coding by Spatium Earth, edits by me*/
 .button {
   background: linear-gradient(to bottom right, #36064d, #b665d8);
