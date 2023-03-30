@@ -165,19 +165,19 @@ font-weight: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 75px;
-
+    font-family: cursive ;
 
 }
 
 #contact fieldset{
-    border: 2px solid #36064d;
+    border: 2px double #36064d;
     padding: 1em;
     border-radius: 1em;
 
 }
 
 #contact legend{
-    background-color: #a974cf;
+    background-color: #923fb6;
     color: white;
     padding: 1ex;
     border-bottom-left-radius: 1ex;
