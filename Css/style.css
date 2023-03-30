@@ -268,14 +268,14 @@ h6{
         grid-template-columns: 2fr 1fr;
     }
 
-    #gallery figcaption{
+    #gallery figcaption #video{
 
         display: flex;
         justify-content: 2fr 1fr;
 
     }
 
-    #gallery {
+    #gallery #video {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -283,7 +283,7 @@ h6{
 }
 
 
-figcaption{
+figcaption, #video{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,13 +303,13 @@ columns: 20rem;
 /* large screen size */
 @media screen and (min-width: 752px){
 
-    figure{
+    figure #video{
         display: block;
         grid-template-columns: 2fr 1fr;
     }
 
 
-    #gallery{
+    #gallery #video{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
