@@ -76,6 +76,16 @@ font-size: 1.2em;
 }
 
 
+.navbar-links a:hover,.navbar-links a:focus{
+    color: #EEE0B1;
+    background-color: #36064d;
+    border-radius: 10px;
+    outline:none ;
+
+
+
+}
+
 
 /* 
 media query for non-mobile nav bar
