@@ -24,7 +24,7 @@ main{
 /* navbar */
 
 .navbar{
-background-color:#5e5163;
+background-color:#EEE0B1;
 color: #36064d;
 display: flex;
 flex-direction:column;
@@ -53,13 +53,27 @@ font-size: 1.2em;
 
 /* navigation list */
 
+.navbar-links li{
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
+
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
-
+.navbar-links a{
+    color: #69359C ;
+    background-attachment:#EEE0B1 ;
+    font-size: 1.5rem ;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display:inline-block ;
+}
 
 
 
