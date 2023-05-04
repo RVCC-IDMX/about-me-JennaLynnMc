@@ -7,3 +7,18 @@ Description: The purpose of my project is to make a site all about me. It is als
 
 
 ![Color Scheme](./img/color_scheme.jpg"Purple Color Scheme")
+
+
+
+
+
+
+Citations!:
+
+https://www.w3schools.com/css/css3_animations.asp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
+https://blog.hubspot.com/website/css-animation-examples
+
+ Gradient Button by Spatium Earth
