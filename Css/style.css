@@ -1,19 +1,22 @@
 
-
+/*Beginning of body*/
 body{
+
+    text-align: center;
     font-family: "Roboto" ;
     
 background: #8B72BE; 
     color: #36064d;
     
 }
+/*End of body*/
 
-
+/*Start of heading*/
 h1, h2, h3, h4, h5, h6{
     font-family:"Grenze+Gotisch";
     font-weight: 100;
     font-size: 40pt;
-    text-align: middle;
+    text-align: center;
 
 }
 
@@ -34,8 +37,9 @@ h4{
     font-size: 30px;
    
 }
+/*end of heading*/
 
-
+/*Hero Section*/
 #hero, footer{
 
     color: #36064d;
@@ -47,24 +51,29 @@ h4{
    
 }
 
-/*Hero Section*/
+/*Hero Img Section*/
 
 #hero img{
+    text-align: center;
     width: 300px; height: 300px;
 }
+/*End Hero Section*/
+
 
 /*Bio Section*/
 
 #bio{
-    text-align: center;
+text-align: center;
 font-size: 20px;
 font-weight: 100px;
     color: #faebd7;
 }
+/*End Bio Section*/
 
 /*Hobbies*/
 
 #hobbies{
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,22 +83,25 @@ font-weight: 100px;
 #hobbies ul li:nth-child(even){
 
     color:#36064d;
-    
+    text-align: center;
 }
 
 #hobbies h2{
+    text-align: center;
     font-size:50px;
     margin: .5px 0px;
 }
 
+/*End of hobbies Section*/
 
-
+/*Intro*/
 #Intro{
+    text-align: center;
     text-align:left;
     font-weight: 100;
 
 }
-
+/*End of Intro*/
 
 
 
@@ -97,28 +109,21 @@ font-weight: 100px;
 /*Gallery*/
 
 #gallery{
-
+    text-align: center;
     border: 2px solid #36064d;
     margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
 
 
 #gallery figure{
 
     text-align: center;
 }
-
+/*End ofGallery*/
 
 /*Literature*/
 #lt{
-
+    text-align: center;
     border: 2px solid rgb(105, 30, 210);
     margin-bottom: 2rem;
 }
@@ -133,13 +138,8 @@ font-weight: 100px;
     max-width: 40rem;
     margin:0 auto;
 }
+/*End of Lit*/
 
-
-
-#song{
-    text-align: center;
-    font-size: 15px;
-}
 
 
 /*Contact Forms*/
@@ -189,7 +189,9 @@ margin-bottom: 1ex;
     grid-template-columns: 30px auto;
     
 }
+/*End of Contact Forms*/
 
+/*Heading 5 and 6*/
 h5{
     text-align: center;
 }
@@ -198,15 +200,20 @@ h5{
 h6{
     text-align: center;
 }
+/*End of heading 5 and 6*/
 
-
-
+/*Start video section*/
 #video{
     text-align: center;
 
 }
+/*End video section*/
 
-
+/*Center Bullet section*/
+#flowers{
+    text-align: center;
+}
+/* End Center Bullet section*/
 
 /* Coding by Spatium Earth, edits by me*/
 .button {
@@ -315,7 +322,7 @@ columns: 20rem;
 
 
 }
-
+/*End Figcaption*/
 
 
 
